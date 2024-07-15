@@ -1,0 +1,8 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "notebook.defaultFormatter": "esbenp.prettier-vscode",
+  "css.format.enable": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
