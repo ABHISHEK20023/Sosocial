@@ -23,7 +23,7 @@ app.use(morgan('common'));
 app.use(cookieParser());
 app.use(cors({
     credentials : true,
-    origin : 'http://localhost:3000'
+    origin : ['http://localhost:3000',"https://so-social.onrender.com"]
 }));
 
 dbConnect();

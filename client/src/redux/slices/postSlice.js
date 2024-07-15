@@ -37,13 +37,9 @@ const postSlice = createSlice({
         }).addCase(likeAndUnlikePost.fulfilled, (state, action) => {
             const post=action.payload;
             const index=state?.userProfile?.posts?.findIndex(item=>item._id===post._id)
-            // const index1=store.getState().feedReducer.feedData?.posts?.findIndex(item=>item._id===post._id)
             if(index!==undefined && index!==-1){
                 state.userProfile.posts[index]=post;
             }
-            // if (index1 !== undefined && index1 !== -1) {
-            //   store.getState().feedReducer.feedData.posts[index1] = post;
-            // }
 
         });
     }
