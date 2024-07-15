@@ -1,3 +1,1 @@
-"Bearer <token>" is used for authentication in headers
 
- crypto.randomBytes(64).toString('hex')
